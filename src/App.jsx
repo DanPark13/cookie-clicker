@@ -15,6 +15,24 @@ const App = () => {
         <h2>Count: {count}</h2>
         <img className="cookie" src={cookieImage} onClick={updateCount}></img>
       </div>
+
+      <div className="container">
+        <div className="upgrade">
+          <h3>Double Stuffed 👯‍♀️</h3>
+          <p>2x per click</p>
+          <button>10 Cookies</button>
+        </div>
+        <div className="upgrade">
+          <h3>Party Pack 🎉</h3>
+          <p>5x per click</p>
+          <button>100 Cookies</button>
+        </div>
+        <div className="upgrade">
+          <h3>Full Feast 👩🏽‍🍳</h3>
+          <p>10x per click</p>
+          <button>1000 Cookies</button>
+        </div>
+      </div>
     </div>
   )
 }
