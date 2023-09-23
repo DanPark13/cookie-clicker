@@ -20,6 +20,15 @@ h2 {
   margin: 0 auto;
 }
 
+.cookie:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cookie:active {
+  transform: scale(0.95);
+}
+
 .container {
   margin-top: 50px;
   display: flex;
