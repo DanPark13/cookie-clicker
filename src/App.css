@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 32px;
+}
+
+.cookie {
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+}
